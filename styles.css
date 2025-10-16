@@ -68,13 +68,14 @@ a{
     width: 650px;
     font-size: 25px;
     font-weight: 100;
-    border: 1.5px solid rgba(211, 211, 211, 0.577);
+    border: 2px solid rgba(211, 211, 211, 0.577);
 }
 input:hover{
-    border-color: #166bf4;
+    border-color: #699ae7;
+
 }
 input:focus{
-    background-color: #70757a;
+    outline-color: #6da3ef;
 }
 .button{
     display: flex;
