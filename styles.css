@@ -123,27 +123,30 @@ button:hover{
         font-size: 15px;
     }
 }
-@media (max-width: 225px) {
+@media (max-width: 250px) {
     .Google{
-        font-size: 35px;
+        font-size: 45px;
     }
     .label input{
-        width: 150px;
-        height: 18px;
+        width: 170px;
+        height: 28px;
         font-size: 10px;
     }
     .button{
         flex-direction: column;
-        align-items: center;
     }
 }
-@media (max-width: 130px) {
+/* @media (max-width: 130px) {
     .Google{
         font-size: 35px;
     }
     .label input{
-        width: 140px;
+        width: 13x0px;
         height: 15px;
         font-size: 15px;
     }
-}
+    .button {
+        font-size: 9px;
+        width: 50px;
+    }
+} */
