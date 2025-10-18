@@ -95,6 +95,14 @@ button:hover{
     box-shadow: 2px 2px 2px 1px #aeaeae;
     background-color: #f1f1f4;   
 }
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+.none{
+    list-style: none;
+}
 .infos{
     padding: 30px;
     text-align: center;
@@ -115,7 +123,7 @@ button:hover{
 }
 @media (max-width: 320px) {
     .Google{
-        font-size: 75px;
+        font-size: 70px;
     }
     .label input{
         width: 250px;
@@ -123,30 +131,3 @@ button:hover{
         font-size: 15px;
     }
 }
-@media (max-width: 250px) {
-    .Google{
-        font-size: 45px;
-    }
-    .label input{
-        width: 170px;
-        height: 28px;
-        font-size: 10px;
-    }
-    .button{
-        flex-direction: column;
-    }
-}
-/* @media (max-width: 130px) {
-    .Google{
-        font-size: 35px;
-    }
-    .label input{
-        width: 13x0px;
-        height: 15px;
-        font-size: 15px;
-    }
-    .button {
-        font-size: 9px;
-        width: 50px;
-    }
-} */
